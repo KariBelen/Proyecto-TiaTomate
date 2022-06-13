@@ -1,0 +1,80 @@
+@mixin align {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@mixin img {
+    margin: auto;
+    display: flex;
+    width: 60%;
+    height: 60%;
+    padding: 2%;
+}
+
+@mixin img-our {
+    margin: auto;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 2%;
+}
+
+@mixin text {
+    justify-content:center;
+    align-items: center;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+@mixin section-box {
+    height: 8rem;
+}
+
+@mixin title {
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.about-img {
+    @include img;
+}
+
+.our-img {
+    @include img-our;
+}
+
+p {
+    @include text;
+}
+
+.section-box {
+    span{
+        @include title;
+    }
+    @include section-box;
+    @include align;
+}
+
+section{
+    span{
+        @include title;
+    }
+    @include align; 
+}
+
+header{
+    @include align;
+}
+
+footer{
+    @include align;
+}
+

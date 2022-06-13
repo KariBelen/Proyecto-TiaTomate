@@ -1,0 +1,16 @@
+section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    span {
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+    .about-text{
+        width: 100%;
+    }
+}

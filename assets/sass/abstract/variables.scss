@@ -1,0 +1,59 @@
+$bg1: #E56353;
+$bg2: #91918D;
+$color1: #FAFAFA;
+$color2: #E97F72;
+$color3: #f0a9a1;
+$font1: #91918D;
+$font2: #BABAB8;
+$font3: #A0A0A0;
+$font4: #686963;
+$height1: 7rem;
+
+header{
+    background-color: $bg1;
+    color: $color1;
+}
+
+section {
+    p{
+        color: $font4;
+    }
+    span{
+        color: $font4;
+    }
+    .about-text{
+        background-color: $bg2;
+        p{
+            color: $color1;
+        }
+        span{
+            color: $color1;
+        }
+    }
+}
+
+
+footer{
+    background-color: $bg2;
+}
+
+
+
+.section-box {
+    background-color: $bg1;
+    color: $color1;
+    height: $height1;
+}
+
+section p {
+    
+}
+
+.boton {
+    color: $font4;
+}
+
+footer {
+    background-color: $font1;
+    height: $height1;
+}
